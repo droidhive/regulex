@@ -1,8 +1,8 @@
 ({
     baseUrl: 'src/',
-    mainConfigFile: 'src/regulex.js',
-    out: 'dist/regulex.js',
+    mainConfigFile: 'src/PlayRegexDraw.js',
+    out: '../js/prjs-new.js',
     optimize: 'uglify2',
     wrap: false,
-    include: ['libs/almond','regulex']
+    include: ['libs/almond', 'PlayRegexDraw']
 })
